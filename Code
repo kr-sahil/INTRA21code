@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #leftbox {
+                float:left;
+                width:25%;
+                height:300px;
+                text-transform:justify;
+            }
+            #middlebox{
+                float:left;
+                width:45%;
+                height:300px;
+                text-transform:justify;
+            }
+            #rightbox{
+                float:right;
+                width:25%;
+                height:300px;
+                text-transform:justify;
+            }
+      body{
+        background-color:rgb(51,0,0);
+      }
+      p{
+        color:white;
+      }
+      #a1{
+        color:white;
+        text-transform:uppercase;
+      }
+      #a2{
+        text-transform:uppercase;
+        color:white;
+      }
+      #a3{
+        text-transform:uppercase;
+        color:white;
+      }
+      .rd{
+        color:red;
+      }
+      .wh{
+        color:white;
+      }
+    </style>
+  </head>
+  <body>
+    <br>
+    <img src="gx.png" height="50" width="50">
+    <div id = "boxes">
+    <h3 style="text-align: center;"><span class="rd">-| G</span><span class="wh">EE</span><span class="rd">KONI</span><span class="wh">X</span> <span class="rd">|-</span></h3>
+    <br>
+    <div id = "leftbox">
+    <h3 id="a1">Workshops, Seminars and Talks</h3>
+    <p>Geekonix conducts workshops related to in-trend technical topics such
+      as robotics, coding, photography, and many more in college. Seminars
+      focussing on higher studies, alternative career paths and
+      opportunities are organized frequently. The college students get to
+      experience inspirational talks with various eminent personalities from
+      time to time.</p>
+      </div>
+      <div id = "middlebox">
+        <h3 id="a2">Technical Events</h3>
+        <p>EDGE - the brainchild of Geekonix and the second-largest tech fest in
+          Eastern India, is organized by Geekonix with 48+ enthralling events
+          with an unimaginable prize pool. For the students of our college to be
+          able to savour EDGE with more tenacity and thrill, Geekonix organizes
+          INTRA college tech fest exclusively for the college students.</p>
+        </div>
+      <div id = "rightbox">
+        <h3 id="a3">Fun Events</h3>
+        <p>The 3 days of EDGE are made more enjoyable, with FUN EVENTS like Paint
+          Ball, Laser Tag, Red Bull Pong, Body Zorbing, Flip the Bottle and
+          selfie competitions. After a day of intense competition and events, it
+          helps the participants to relieve themselves and enjoy the moments.
+          Winners get goodies and gift vouchers.</p>
+        </div>
+      </div>
+      <br>
+        <center><img src="webd.png" height="100" width="150"> <img src="bughunt.jpg" height="100" width="150"></center>
+        <br>
+        <footer style="text-align:center; color:white; background-color: black;">Made from- SAHIL KUMAR</footer>
+  </body>
+</html>
